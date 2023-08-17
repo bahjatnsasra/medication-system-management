@@ -1,0 +1,50 @@
+.doctor-card-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+
+
+.doctor-card-container:hover {  
+    transform: scale(1.05);
+}
+
+.doctor-card-container .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.doctor-card-container .MuiTypography-root {
+    margin-bottom: 8px;
+}
+
+.doctor-card-container .MuiTypography-colorTextSecondary {
+    font-size: 12px;
+}
+
+.doctor-card-container .MuiTypography-h5 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.doctor-card-container .MuiCardActions-root {
+    margin-top: auto;
+}
+
+.doctor-card-container .MuiButton-root {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.doctor-card-container .MuiButton-root:hover {
+    background-color: #0056b3;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+.text-cards-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 7rem;
+}
+
+
+.card-wrapper {
+    margin: 0 10px; 
+}
+
+
+
+
+
