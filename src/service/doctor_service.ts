@@ -6,6 +6,7 @@ const headers = {
 }
 
 
+
 export class DoctorService {
 
     async getAllDoctors(){

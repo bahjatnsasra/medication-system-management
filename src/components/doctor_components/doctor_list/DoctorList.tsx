@@ -10,6 +10,7 @@ type Props = {
     setDoctors : Function
 };
 export const DoctorList = (props: Props) => {
+    
     function deleteDoctor(patientId : string) {
         let doctorListTemp = [...props.doctors]
         let index = doctorListTemp.findIndex(doctor =>  doctor.id === patientId)

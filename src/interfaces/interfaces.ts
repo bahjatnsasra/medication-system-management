@@ -5,6 +5,7 @@ export interface Medicine {
     description : string
     time : Number
     patientId : string
+    
 }
 
 export interface Doctor {
